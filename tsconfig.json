@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "db.js", "pages/api/checkLicience.js", "app/components/graphs/routeGraph.jsx", "app/components/graphs/liciencePiegraph.jsx", "app/components/graphs/TrackingGraph.jsx", "app/components/graphs/Trackingline.jsx", "app/components/graphs/fitnessgraph.jsx", "app/components/sidebar.jsx", "app/components/[Reports]/generalReports/psv travvelled/page.jsx"],
+  "exclude": ["node_modules"]
+}
